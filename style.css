@@ -1,0 +1,174 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  background-color: #1f2937;
+  height: 80px;
+  display: flex;
+}
+
+.menu .logo {
+  color: #f9faf8;
+  font-size: 24px;
+  margin-left: 10%;
+  margin-right: auto;
+  font-weight: bold;
+  align-self: center;
+  padding: 1rem;
+}
+
+.menu .menu-items {
+  display: flex;
+  text-decoration: none;
+  gap: 64px;
+  justify-self: flex-end;
+  align-self: center;
+  margin-right: 20%;
+}
+
+.menu .menu-items a {
+  padding: 1rem;
+  display: flex;
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.main-text {
+  background-color: #1f2937;
+  height: 60vh;
+  display: flex;
+}
+
+.main-text .left {
+  color: #e5e7eb;
+  padding: 10%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-text .left h1 {
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.main-text .right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-text .left button {
+  background-color: #3382f6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.main-text .right img {
+  width: 60%;
+  align-self: center;
+}
+
+.information {
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.information h2 {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+
+.information .cards {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.information .cards img {
+  height: 200px;
+  width: 200px;
+  border: #3382f6 4px solid;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.information .cards .box {
+  height: 200px;
+  width: 200px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  padding: 10% 20%;
+  padding-bottom: 15%;
+}
+
+.quote h1 {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quote h3 {
+  font-size: 24px;
+  text-align: right;
+}
+
+.contact {
+  background-color: #fff;
+  height: 50vh;
+  display: flex;
+}
+
+.contact .box {
+  width: 75%;
+  margin: auto;
+  background-color: #3382f6;
+  border-radius: 0.5rem;
+  height: 150px;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.contact .box button {
+  background-color: #3382f6;
+  color: #fff;
+  padding: 8px 25px;
+  border: none;
+  border: #fff 2px solid;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
